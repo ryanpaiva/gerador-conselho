@@ -18,19 +18,21 @@
 <body>
     <main class="container">
         <div class="retangulo">
-            <h2 class="numeroConselho">Conselho #001</h2>
-            <p class="Conselho">Lorem ipsum dolor sit amet consectetur a!</p>
+            <h2 class="numeroConselho" id="conselhoId"></h2>
+            <p class="Conselho" id="conselhoGerado"></p>
 
             <picture>
                 <source srcset="./src/imagens/pattern-divider-mobile.svg" media="(max-width: 768px)">
                 <img src="./src/imagens/pattern-divider-desktop.svg" alt="Pattern divider">
             </picture>
 
-            <button class="botao">
+            <button class="botao" id="botaoConselho">
                 <img src="./src/imagens/icon-dice.svg" alt="">
             </button>
         </div>
     </main>
+
+    <script src="./src/js/index.js"></script>
 </body>
 
 </html>
